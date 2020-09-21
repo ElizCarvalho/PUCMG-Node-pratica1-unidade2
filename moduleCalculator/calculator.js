@@ -6,7 +6,7 @@
 */
 
 function addition(x, y){
-    if(!isNaN(x) && !isNaN(y))
+    if(IsValid(x,y))
         return parseFloat(x) + parseFloat(y);
     else
         return NaN;
