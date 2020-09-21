@@ -1,3 +1,10 @@
+/**
+* PUC-Minas / Arquitetura de Sistemas Distribuídos
+* Author: Elizabeth Carvalho
+* File: moduleCalculator/calculator.js
+* GitHub: https://github.com/ElizCarvalho/PUCMG-Node-pratica1-unidade2
+*/
+
 function addition(x, y){
     if(!isNaN(x) && !isNaN(y))
         return parseFloat(x) + parseFloat(y);
